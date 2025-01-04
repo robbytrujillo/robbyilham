@@ -1,8 +1,17 @@
+import '../styles/Portfolio.css';
+
 function Portfolio() {
   return (
-    <div>
-      
-    </div>
+    <section id="portfolio">
+        <div className="wrapper">
+            <h3>Portfolio</h3>
+            <div className="grid">
+                <div className="item">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
   )
 }
 
