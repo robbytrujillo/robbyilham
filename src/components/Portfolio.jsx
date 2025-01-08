@@ -15,7 +15,7 @@ function Portfolio() {
                 portfolioList.map((item) => {
                   return (
                     <div className='item' key={item.id}>
-                      <Link to='/portfolio/100'><img src={item.image} /></Link>
+                      <Link to={`/portfolio/${item.id}`}><img src={item.image} /></Link>
                     </div>
                   )
               })
