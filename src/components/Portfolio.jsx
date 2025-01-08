@@ -3,6 +3,8 @@ import '../styles/Portfolio.css';
 
 import { portfolioList } from '../data/DataPortfolio';
 
+import { Link } from 'react-router-dom';
+
 function Portfolio() {
   return (
     <section id="portfolio">
@@ -13,7 +15,7 @@ function Portfolio() {
                 portfolioList.map((item) => {
                   return (
                     <div className='item' key={item.id}>
-                      <a href=''><img src={item.image} /></a>
+                      <Link to='/portfolio/100'><img src={item.image} /></Link>
                     </div>
                   )
               })
