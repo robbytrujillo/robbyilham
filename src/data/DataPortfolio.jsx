@@ -9,26 +9,38 @@ import portfolio6 from '../assets/portfolio6.png'
 export  const portfolioList = [
     {
         id: '1',
-        image: portfolio1
+        title: 'Website Portfolio #1',
+        image: portfolio1,
+        skill: 'reactjs, html, css, express, php'
     },
     {
         id: '2',
-        image: portfolio2
+        title: 'Website Portfolio #2',
+        image: portfolio2,
+        skill: 'vuejs, html, css, express, node'
     },
     {
         id: '3',
-        image: portfolio3
+        title: 'Website Portfolio #3',
+        image: portfolio3,
+        skill: 'sveltejs, html, css, express, node'
     },
     {
         id: '4',
-        image: portfolio4
+        title: 'Website Portfolio #4',
+        image: portfolio4,
+        skill: 'phython, Django'
     },
     {
         id: '5',
-        image: portfolio5
+        title: 'Website Portfolio #5',
+        image: portfolio5,
+        skill: 'java, Spring boot'
     },
     {
         id: '6',
-        image: portfolio6
+        title: 'Website Portfolio #6',
+        image: portfolio6,
+        skill: 'ruby, ruby on rails'
     }
 ]
