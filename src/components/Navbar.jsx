@@ -32,7 +32,7 @@ function Navbar() {
                 <ul>
                     <li><HashLink to="/#portfolio">Portfolio</HashLink></li>
                     <li><HashLink to="/#about">About</HashLink></li>
-                    <li><HashLink to="/#experience">Experience</HashLink></li>
+                    <li><Link to="/experience">Experience</Link></li>
                 </ul>
             </div>
         </div>
