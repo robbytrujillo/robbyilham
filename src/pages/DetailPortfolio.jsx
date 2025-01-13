@@ -3,6 +3,7 @@ import "../styles/DetailPortfolio.css";
 import { portfolioList } from "../data/DataPortfolio"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
 
 function DetailPortfolio() {
   const { id } = useParams();
@@ -24,6 +25,7 @@ function DetailPortfolio() {
       </div>
     </section>
     <Footer />
+    <ScrollToTop />
     </>
   )
 }
