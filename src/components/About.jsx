@@ -14,6 +14,7 @@ import { FaGithub } from "react-icons/fa6";
 import { SiPostman } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
+import { DiRuby } from "react-icons/di";
 
 
 function About() {
@@ -30,7 +31,7 @@ function About() {
             <div className="skills">
               <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaPhp /> <FaJava />
               <FaReact /> <FaVuejs /> <FaPython /> <FaLaravel /> <FaGitAlt /> <FaGithub /> 
-              <SiPostman /> <RiTailwindCssFill /> <FaBootstrap />
+              <SiPostman /> <RiTailwindCssFill /> <FaBootstrap /> <DiRuby />
             </div>
         </div>
     </section>
