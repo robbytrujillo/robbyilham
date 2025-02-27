@@ -11,7 +11,7 @@ export  const portfolioList = [
         id: '1',
         title: 'Website Portfolio #1',
         image: portfolio8,
-        skill: 'reactjs, html, css, express, php'
+        skill: 'html, css, javascript, bootsrap, php'
     },
     {
         id: '2',
