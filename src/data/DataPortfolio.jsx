@@ -1,6 +1,6 @@
 // import aset gambar 
-import portfolio1 from '../assets/portfolio1.png'
-import portfolio2 from '../assets/portfolio2.png'
+import portfolio8 from '../assets/portfolio8.png'
+import portfolio9 from '../assets/portfolio9.png'
 import portfolio3 from '../assets/portfolio3.png'
 import portfolio4 from '../assets/portfolio4.png'
 import portfolio5 from '../assets/portfolio5.png'
@@ -10,13 +10,13 @@ export  const portfolioList = [
     {
         id: '1',
         title: 'Website Portfolio #1',
-        image: portfolio1,
+        image: portfolio8,
         skill: 'reactjs, html, css, express, php'
     },
     {
         id: '2',
         title: 'Website Portfolio #2',
-        image: portfolio2,
+        image: portfolio9,
         skill: 'vuejs, html, css, express, node'
     },
     {
