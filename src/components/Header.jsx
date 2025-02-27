@@ -12,7 +12,7 @@ function Header() {
    <header>
     <div className="header-jumbotron">
         <img src={profilePicture} />
-        <h3>I am Robby Ilhamkusuma</h3>
+        <h3>I am Robby</h3>
         <p>Fullstack Developer - Learner - IT Enthusiast</p>
         <div className='socialMedia'>
             <a href=''><FaInstagram /></a>
