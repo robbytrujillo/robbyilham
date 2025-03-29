@@ -15,10 +15,10 @@ function Header() {
         <h3>I am Robby</h3>
         <p>Fullstack Developer - Learner - IT Enthusiast</p>
         <div className='socialMedia'>
-            <a href=''><FaInstagram /></a>
-            <a href=''><FaGithub /></a>
-            <a href=''><FaLinkedin /></a>
-            <a href=''><FaFacebookF /></a>
+            <a href='https://www.instagram.com/robbyilhkus/'><FaInstagram /></a>
+            <a href='https://github.com/robbytrujillo'><FaGithub /></a>
+            <a href='https://www.linkedin.com/in/robby-ilham-kusuma/'><FaLinkedin /></a>
+            <a href='https://web.facebook.com/profile.php?id=100034931260218'><FaFacebookF /></a>
             
         </div>
     </div>   

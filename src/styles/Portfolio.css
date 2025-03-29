@@ -8,6 +8,10 @@
   .grid > .item > a > img {
     width: 100%;
     border-radius: 10px;
+
+    /* tambahan */
+    height: 200px; /* Sesuaikan tinggi agar seragam */
+    object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
   }
   
   @media only screen and (max-width: 1000px) {

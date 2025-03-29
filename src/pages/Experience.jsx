@@ -3,8 +3,8 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 // react icon
-import { RiNextjsFill } from "react-icons/ri";
-import { FaReact } from "react-icons/fa";
+// import { RiNextjsFill } from "react-icons/ri";
+import { FaPhp, FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
 
@@ -23,50 +23,74 @@ function Experience() {
           <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2024 - present"
+                date="2025 - present"
                 iconStyle={{ background: '#222831', color: '#fff' }}
-                icon={<RiNextjsFill />}
+                icon={<FaPhp />}
               >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Web Development IHBS</h3>
+              <h4 className="vertical-timeline-element-subtitle">East Jakarta, Indonesia</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                Web Development Certificate IHBS
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2023 - present"
+                date="2025 - present"
+                iconStyle={{ background: '#222831', color: '#fff' }}
+                icon={<FaPhp />}
+              >
+              <h3 className="vertical-timeline-element-title">Web Development IHBS</h3>
+              <h4 className="vertical-timeline-element-subtitle">East Jakarta, Indonesia</h4>
+              <p>
+                Web Development Inventory IHBS
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="2024 - 2025"
+                iconStyle={{ background: '#222831', color: '#fff' }}
+                icon={<FaPhp />}
+              >
+              <h3 className="vertical-timeline-element-title">Web Development IHBS</h3>
+              <h4 className="vertical-timeline-element-subtitle">East Jakarta, Indonesia</h4>
+              <p>
+                Web Development Health IHBS
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="2024 - 2025"
                 iconStyle={{ background: '#222831', color: '#fff' }}
                 icon={<FaReact />}
               >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Web Development IHBS</h3>
+              <h4 className="vertical-timeline-element-subtitle">East Jakarta, Indonesia</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                Web Development Homecoming IHBS
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2023 - present"
-                iconStyle={{ background: '#222831', color: '#fff' }}
-                icon={<FaVuejs />}
-              >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="2022 - present"
+                date="2023 - 2024"
                 iconStyle={{ background: '#222831', color: '#fff' }}
                 icon={<FaLaravel />}
               >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Web Development IHBS</h3>
+              <h4 className="vertical-timeline-element-subtitle">East Jakarta, Indonesia</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                Web Development HRIS IHBS
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="2022 - 2023"
+                iconStyle={{ background: '#222831', color: '#fff' }}
+                icon={<FaVuejs />}
+              >
+              <h3 className="vertical-timeline-element-title">Web Development</h3>
+              <h4 className="vertical-timeline-element-subtitle">Bogor, Indonesia</h4>
+              <p>
+                Web Development My Blog
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>

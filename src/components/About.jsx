@@ -22,11 +22,8 @@ function About() {
     <section id="about">
         <div className="wrapper">
             <h3>About</h3>
-            <p>lorem ipsum dolor sit lorem ipsum dolor sit</p> 
-            <p>lorem ipsum dolor sit lorem 
-              ipsum dolor sit lorem ipsum dolor 
-              sit lorem ipsum dolor sit lorem ipsum 
-              dolor sit lorem ipsum dolor sit</p>
+            <p>Describe Me</p> 
+            <p>Hi, I am Robby Ilhamkusuma, a Fullstack Web Developer with more than 4 years of experience in the world of web programming. Currently focusing on developing websites/applications and doing routines as IT Support at Ibnu Hajar Boarding School, besides that I also have activities as a Freelance Web Developer at Laksana Web Solution and working on several personal open source projects on github. Then I also like new things about coding.</p>
             <h4>Programming Language & Tools</h4>
             <div className="skills">
               <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaPhp /> <FaJava />
