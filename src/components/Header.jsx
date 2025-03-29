@@ -1,4 +1,4 @@
-import profilePicture from '../assets/photo-profile1.png';
+import profilePicture from '../assets/photos.jpg';
 import '../styles/Header.css';
 // import icon
 import { FaInstagram } from "react-icons/fa";
