@@ -3,8 +3,8 @@ import portfolio8 from '../assets/portfolio8.png'
 import portfolio9 from '../assets/portfolio9.png'
 import portfolio10 from '../assets/portfolio10.png'
 import portfolio11 from '../assets/portfolio11.png'
-import portfolio5 from '../assets/portfolio5.png'
-import portfolio6 from '../assets/portfolio6.png'
+import portfolio7 from '../assets/portfolio7.png'
+import portfolio12 from '../assets/portfolio12.png'
 
 export  const portfolioList = [
     {
@@ -33,14 +33,14 @@ export  const portfolioList = [
     },
     {
         id: '5',
-        title: 'Website Portfolio #5',
-        image: portfolio5,
-        skill: 'java, Spring boot'
+        title: 'HRIS IHBS',
+        image: portfolio7,
+        skill: 'Nuxt JS, Laravel'
     },
     {
         id: '6',
-        title: 'Website Portfolio #6',
-        image: portfolio6,
-        skill: 'ruby, ruby on rails'
+        title: 'Certificate IHBS',
+        image: portfolio12,
+        skill: 'html, css, javascript, bootsrap, php'
     }
 ]
