@@ -22,6 +22,8 @@ function DetailPortfolio() {
         <h1>{data.title}</h1>
         <img src={data.image} />
         <p className="skill"><b>Skills:</b> {data.skill}</p>
+        <p className="site">{data.site}</p>
+        <p className="information">{data.information}</p>
       </div>
     </section>
     <Footer />
