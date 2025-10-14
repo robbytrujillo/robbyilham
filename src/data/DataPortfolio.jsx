@@ -7,6 +7,7 @@ import portfolio7 from "../assets/portfolio7.png";
 import portfolio12 from "../assets/certificate-home.png";
 import portfolio13 from "../assets/desa-digital2.png";
 import portfolio14 from "../assets/cari-hotel.png";
+import portfolio15 from "../assets/chatschool1.png";
 
 export const portfolioList = [
   {
@@ -80,5 +81,14 @@ export const portfolioList = [
     site: "https://carihotel.robbyilham.com/",
     information:
       "An application used to search for and book hotel accommodations. This application allows users to compare prices, check availability, and make reservations independently from their mobile phone or computer.",
+  },
+  {
+    id: "9",
+    title: "Asisten Informasi Sekolah",
+    image: portfolio15,
+    skill: "html, css, javascript, php, LLM",
+    site: "https://chatschool.robbyilham.com/",
+    information:
+      "An artificial intelligence (AI)-based virtual assistant designed to help answer prospective parents' questions and provide up-to-date information.",
   },
 ];
