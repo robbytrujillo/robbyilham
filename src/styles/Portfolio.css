@@ -1,21 +1,106 @@
 .grid {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 25px;
-    justify-content: center;
-  }
-  
-  .grid > .item > a > img {
-    width: 100%;
-    border-radius: 10px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 25px;
+  justify-content: center;
+}
 
-    /* tambahan */
-    height: 200px; /* Sesuaikan tinggi agar seragam */
-    object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+.grid > .item > a > img {
+  width: 100%;
+  border-radius: 10px;
+
+  /* tambahan */
+  height: 200px; /* Sesuaikan tinggi agar seragam */
+  object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 45% 45%;
   }
-  
-  @media only screen and (max-width: 1000px) {
-    .grid {
-      grid-template-columns: 45% 45%;
-    }
+}
+
+/* Letakkan kode ini di bagian bawah file Portfolio.css Anda */
+
+/* Container untuk membuat tombol berada di tengah */
+.read-more-container {
+  text-align: center;
+  margin-top: 40px; /* Beri jarak dari grid portfolio */
+}
+
+/* Styling utama untuk tombol */
+.read-more-btn {
+  background-color: #222831; /* Warna gelap, sesuaikan dengan tema Anda */
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px; /* Ini yang membuatnya menjadi rounded-pill */
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efek saat cursor mouse berada di atas tombol */
+.read-more-btn:hover {
+  background-color: #393e46; /* Warna sedikit lebih terang saat hover */
+  transform: translateY(-2px); /* Sedikit terangkat saat hover */
+}
+
+/* -- Paste semua kode CSS yang sudah Anda miliki sebelumnya di sini -- */
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 25px;
+  justify-content: center;
+}
+
+.grid > .item > a > img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Untuk Tablet */
+@media only screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 45% 45%;
   }
+}
+
+/* ======================================================= */
+/* TAMBAHKAN KODE BARU DI BAWAH INI UNTUK TAMPILAN MOBILE */
+/* ======================================================= */
+
+/* Untuk Mobile (lebar layar di bawah 600px) */
+@media only screen and (max-width: 600px) {
+  .grid {
+    /* Mengubah layout menjadi satu kolom */
+    grid-template-columns: 90%;
+  }
+}
+
+/* -- Styling untuk tombol (biarkan seperti sebelumnya) -- */
+.read-more-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.read-more-btn {
+  background-color: #222831;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #393e46;
+  transform: translateY(-2px);
+}

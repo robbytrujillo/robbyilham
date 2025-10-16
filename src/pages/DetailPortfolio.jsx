@@ -23,7 +23,7 @@ function DetailPortfolio() {
           <img src={data.image} alt={data.title} />{" "}
           {/* Tambahkan alt text untuk aksesibilitas */}
           <p className="skill">
-            <b>Skills:</b> {data.skill}
+            <b>Technology Used :</b> {data.skill}
           </p>
           <p className="site">
             <a

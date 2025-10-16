@@ -79,7 +79,7 @@ export const portfolioList = [
     site: "https://desa.robbyilham.com/",
     sitelink: siteLink,
     information:
-      "Information and communication technology-based systems for managing data, providing public services, and empowering the economy at the village level.",
+      "The Digital Village System is based on information and communication technology to manage data, provide public services, and empower the economy at the village level.",
   },
   {
     id: "8",
