@@ -28,6 +28,42 @@ function Experience() {
             className="vertical-timeline-element--work"
             date="2025 - present"
             iconStyle={{ background: "#222831", color: "#fff" }}
+            icon={<FaLaravel />}
+          >
+            <h3 className="vertical-timeline-element-title">Travello</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bogor, Indonesia
+            </h4>
+            <p>Travel Website</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2025 - present"
+            iconStyle={{ background: "#222831", color: "#fff" }}
+            icon={<FaLaravel />}
+          >
+            <h3 className="vertical-timeline-element-title">OnlCourse</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bogor, Indonesia
+            </h4>
+            <p>Online Course</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2025 - present"
+            iconStyle={{ background: "#222831", color: "#fff" }}
+            icon={<FaLaravel />}
+          >
+            <h3 className="vertical-timeline-element-title">buytickets</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bogor, Indonesia
+            </h4>
+            <p>Buy Ticket</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2025 - present"
+            iconStyle={{ background: "#222831", color: "#fff" }}
             icon={<FaPhp />}
           >
             <h3 className="vertical-timeline-element-title">Chatbot AI</h3>

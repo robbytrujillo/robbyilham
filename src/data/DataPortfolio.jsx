@@ -8,6 +8,9 @@ import portfolio12 from "../assets/certificate-home.png";
 import portfolio13 from "../assets/desa-digital2.png";
 import portfolio14 from "../assets/cari-hotel.png";
 import portfolio15 from "../assets/chatschool1.png";
+import portfolio16 from "../assets/buytickets.png";
+import portfolio17 from "../assets/onlcourse.png";
+import portfolio18 from "../assets/travello.png";
 import siteLink from "../assets/SiteLink.png";
 
 export const portfolioList = [
@@ -100,5 +103,35 @@ export const portfolioList = [
     sitelink: siteLink,
     information:
       "An artificial intelligence (AI)-based virtual assistant designed to help answer prospective parents' questions and provide up-to-date information.",
+  },
+  {
+    id: "10",
+    title: "Pembelian Tiket Event",
+    image: portfolio16,
+    skill: "html, css, javascript, tailwind, laravel",
+    site: "https://buytickets.robbyilham.com/",
+    sitelink: siteLink,
+    information:
+      "A digital platform that allows users to order tickets online for various types of",
+  },
+  {
+    id: "11",
+    title: "Online Course",
+    image: portfolio17,
+    skill: "html, css, javascript, tailwind, laravel",
+    site: "https://onlcourse.robbyilham.com/",
+    sitelink: siteLink,
+    information:
+      "A structured learning program delivered via the internet, allowing students to learn from anywhere with internet access and often using a digital platform such as a learning management system (LMS)",
+  },
+  {
+    id: "12",
+    title: "Travello",
+    image: portfolio18,
+    skill: "html, css, javascript, tailwind, laravel",
+    site: "https://travello.robbyilham.com/",
+    sitelink: siteLink,
+    information:
+      "Travello makes it easy for tourists to find recommended vacation or pilgrimage destinations.",
   },
 ];

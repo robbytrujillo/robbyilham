@@ -24,11 +24,11 @@ function About() {
         <p>Who am I</p>
         <p>
           Hi, I am Robby Ilhamkusuma, a full-stack web developer with over four
-          years of experience in web programming. I am currently focused on
-          developing websites/applications and working as an Information
-          Technology professional at Ibnu Hajar Islamic Boarding School. I am
-          also a freelance web developer and working on several personal open
-          source projects on GitHub. I also enjoy learning about coding and
+          years of experience in web programming. I currently focus on
+          website/app development and work as an Information Technology
+          professional at a boarding school in the Greater Jakarta area. I am
+          also a freelance web developer and work on several personal open
+          source projects on GitHub. I also enjoy learning about programming and
           other IT topics.
         </p>
         <h4>Programming Language & Tools</h4>
