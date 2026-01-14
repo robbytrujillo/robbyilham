@@ -26,6 +26,18 @@ function Experience() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="2026 - present"
+            iconStyle={{ background: "#222831", color: "#fff" }}
+            icon={<FaLaravel />}
+          >
+            <h3 className="vertical-timeline-element-title">Donasikan</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bogor, Indonesia
+            </h4>
+            <p>Travel Website</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="2025 - present"
             iconStyle={{ background: "#222831", color: "#fff" }}
             icon={<FaLaravel />}
