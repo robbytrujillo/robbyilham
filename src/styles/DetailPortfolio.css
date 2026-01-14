@@ -1,11 +1,17 @@
 #detail-portfolio > .wrapper {
   width: 60%;
+
+  margin: 0 auto; /* INI KUNCI */
 }
+
 #detail-portfolio > .wrapper > img {
-  margin: auto;
-  width: 100%;
+  width: 70%;
   border-radius: 30px;
+
+  display: block;
+  margin: 0 auto;
 }
+
 #detail-portfolio > .wrapper > p.skill {
   text-align: center;
   font-size: 1.5rem;
