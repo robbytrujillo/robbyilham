@@ -143,6 +143,6 @@ export const portfolioList = [
     site: "https://donasikan.robbyilham.com/",
     sitelink: siteLink,
     information:
-      "Travello makes it easy for tourists to find recommended vacation or pilgrimage destinations.",
+      "This application facilitates donors and fundraisers in distributing aid in the form of donations that will be given to those in need.",
   },
 ];
