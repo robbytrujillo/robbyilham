@@ -12,6 +12,7 @@ import portfolio16 from "../assets/buytickets.png";
 import portfolio17 from "../assets/onlcourse.png";
 import portfolio18 from "../assets/travello.png";
 import portfolio19 from "../assets/donasikan.png";
+import portfolio20 from "../assets/humans.png";
 import siteLink from "../assets/SiteLink.png";
 
 export const portfolioList = [
@@ -144,5 +145,15 @@ export const portfolioList = [
     sitelink: siteLink,
     information:
       "This application facilitates donors and fundraisers in distributing aid in the form of donations that will be given to those in need.",
+  },
+  {
+    id: "14",
+    title: "Humans",
+    image: portfolio20,
+    skill: "html, css, javascript, tailwind, laravel",
+    site: "https://humans.robbyilham.com/",
+    sitelink: siteLink,
+    information:
+      "The initial design of an HR management information system application, designed to automate administration, employee data, attendance, and payroll, often uses a web-based approach. This system aims to improve HR operational efficiency and simplify decision-making.",
   },
 ];

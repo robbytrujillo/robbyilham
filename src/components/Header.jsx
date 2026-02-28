@@ -1,4 +1,4 @@
-import profilePicture from "../assets/photo-profile1.png";
+import profilePicture from "../assets/photo-profile2.png";
 import "../styles/Header.css";
 // import icon
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
